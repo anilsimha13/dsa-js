@@ -55,3 +55,43 @@ let obj = {
 };
 //console.log(obj.firstName);
 ```
+
+#### 2c. Functions, if-else
+
+- Location: [Functions](/warm-up/functions.js)
+
+```js
+//Declaration of a function
+function printHelloWorld() {
+  console.log("Hello World!");
+}
+printHelloWorld(); // Calling a function
+```
+
+- Return a function and store the value in varaiable and print it on console
+
+```js
+function square(x) {
+  let res = x * x;
+  return res;
+}
+
+const squareOfNumber = square(4);
+console.log(squareOfNumber);
+```
+
+##### if-else condition
+
+- Location: [Conditional Statements](/warm-up/conditionalStatement.js)
+
+```js
+function checkNumberEvenOrOdd(pleaseEnterNumber) {
+  if (pleaseEnterNumber % 2 == 0) {
+    console.log("Given " + pleaseEnterNumber + " number is a Even Number");
+  } else {
+    console.log("Given " + pleaseEnterNumber + " number is a Odd Number");
+  }
+}
+checkNumberEvenOrOdd(3);
+checkNumberEvenOrOdd(4);
+```
