@@ -7,7 +7,12 @@ _Learning from NamasteDev Platform_
 ## Table of content
 
 - [1. Introduction](#1-introduction)
+  - [1a. Introduction](#1a-introduction)
 - [2. Warm Up](#2-warm-up)
+  - [2a. Warm Up - Introduction](#2a-warm-up---introduction)
+  - [2b. Programming 101](#2b-programming-101)
+  - [2c. Functions, if-else](#2c-functions-if-else)
+  - [2d. Loops-01](#2d-loops-01)
 
 ### 1. Introduction
 
@@ -95,3 +100,7 @@ function checkNumberEvenOrOdd(pleaseEnterNumber) {
 checkNumberEvenOrOdd(3);
 checkNumberEvenOrOdd(4);
 ```
+
+#### 2d. Loops-01
+
+- Location : [Loops-01](/warm-up/loops01.js)
