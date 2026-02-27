@@ -103,4 +103,21 @@ checkNumberEvenOrOdd(4);
 
 #### 2d. Loops-01
 
+- Loop means doing same thing over and over
 - Location : [Loops-01](/warm-up/loops01.js)
+
+```js
+//FOR LOOP
+for (initalization; condition; increment / decrement) {
+  //code
+}
+```
+
+```js
+//WHILE LOOP
+initialization;
+while (condition) {
+  //CODE
+  increment / decrement;
+}
+```
